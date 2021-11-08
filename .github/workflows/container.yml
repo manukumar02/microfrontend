@@ -7,7 +7,7 @@ on:
     paths:
       - 'packages/container/**'
 
-defaukts:
+defaults:
   run:
     working-directory: packages/container
 
