@@ -12,6 +12,9 @@ defaults:
     working-directory: packages/container
 
 jobs:
+  - name: install-aws-cli-action
+    uses: unfor19/install-aws-cli-action@v1
+
   build:
     runs-on: ubuntu-latest
 
