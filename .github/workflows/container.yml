@@ -12,13 +12,12 @@ defaults:
     working-directory: packages/container
 
 jobs:
-  - name: install-aws-cli-action
-    uses: unfor19/install-aws-cli-action@v1
-
   build:
     runs-on: ubuntu-latest
 
     steps:
+      - name: install-aws-cli-action
+        uses: unfor19/install-aws-cli-action@v1
       - uses: actions/checkout@v2
       - run: npm install
       - run: npm run build
