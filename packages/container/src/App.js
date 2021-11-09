@@ -1,4 +1,4 @@
-import { StylesProvider } from "@material-ui/core";
+import { StylesProvider, createGenerateClassName } from "@material-ui/styles";
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import Header from "./container/Header";
