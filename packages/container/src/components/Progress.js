@@ -1,6 +1,6 @@
 import React from "react";
 import { makeStyles, createStyles } from "@material-ui/core/styles";
-import { LinearProgress } from "../../../marketing/node_modules/@material-ui/core";
+import { LinearProgress } from "@material-ui/core";
 import { mergeClasses } from "@material-ui/styles";
 
 const useStyles = makeStyles((theme) => {
